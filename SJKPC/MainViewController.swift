@@ -18,6 +18,8 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // 아에이오우
+        
         self.newsImage.layer.cornerRadius = self.newsImage.frame.height / 16
         self.worshipImage.layer.cornerRadius = self.worshipImage.frame.height / 16
         self.prayerImage.layer.cornerRadius = self.prayerImage.frame.height / 16
