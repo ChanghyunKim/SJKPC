@@ -9,23 +9,29 @@
 /* Begin PBXBuildFile section */
 		C63651EA24C5183A00B1D117 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63651E924C5183A00B1D117 /* AppDelegate.swift */; };
 		C63651EC24C5183A00B1D117 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63651EB24C5183A00B1D117 /* SceneDelegate.swift */; };
-		C63651EE24C5183A00B1D117 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63651ED24C5183A00B1D117 /* ViewController.swift */; };
 		C63651F124C5183A00B1D117 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63651EF24C5183A00B1D117 /* Main.storyboard */; };
 		C63651F424C5183A00B1D117 /* SJKPC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C63651F224C5183A00B1D117 /* SJKPC.xcdatamodeld */; };
 		C63651F624C5183E00B1D117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C63651F524C5183E00B1D117 /* Assets.xcassets */; };
 		C63651F924C5183E00B1D117 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63651F724C5183E00B1D117 /* LaunchScreen.storyboard */; };
+		C636520224C56FCC00B1D117 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C636520124C56FCC00B1D117 /* MainViewController.swift */; };
+		C636520424C56FE700B1D117 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C636520324C56FE700B1D117 /* NewsViewController.swift */; };
+		C636520624C5700700B1D117 /* WorshipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C636520524C5700700B1D117 /* WorshipViewController.swift */; };
+		C636520824C5701900B1D117 /* PrayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C636520724C5701900B1D117 /* PrayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C63651E624C5183A00B1D117 /* SJKPC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJKPC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C63651E924C5183A00B1D117 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C63651EB24C5183A00B1D117 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C63651ED24C5183A00B1D117 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C63651F024C5183A00B1D117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C63651F324C5183A00B1D117 /* SJKPC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SJKPC.xcdatamodel; sourceTree = "<group>"; };
 		C63651F524C5183E00B1D117 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C63651F824C5183E00B1D117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C63651FA24C5183E00B1D117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C636520124C56FCC00B1D117 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C636520324C56FE700B1D117 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		C636520524C5700700B1D117 /* WorshipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorshipViewController.swift; sourceTree = "<group>"; };
+		C636520724C5701900B1D117 /* PrayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +66,15 @@
 			children = (
 				C63651E924C5183A00B1D117 /* AppDelegate.swift */,
 				C63651EB24C5183A00B1D117 /* SceneDelegate.swift */,
-				C63651ED24C5183A00B1D117 /* ViewController.swift */,
-				C63651EF24C5183A00B1D117 /* Main.storyboard */,
 				C63651F524C5183E00B1D117 /* Assets.xcassets */,
+				C63651EF24C5183A00B1D117 /* Main.storyboard */,
 				C63651F724C5183E00B1D117 /* LaunchScreen.storyboard */,
 				C63651FA24C5183E00B1D117 /* Info.plist */,
 				C63651F224C5183A00B1D117 /* SJKPC.xcdatamodeld */,
+				C636520124C56FCC00B1D117 /* MainViewController.swift */,
+				C636520324C56FE700B1D117 /* NewsViewController.swift */,
+				C636520524C5700700B1D117 /* WorshipViewController.swift */,
+				C636520724C5701900B1D117 /* PrayerViewController.swift */,
 			);
 			path = SJKPC;
 			sourceTree = "<group>";
@@ -141,10 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C63651EE24C5183A00B1D117 /* ViewController.swift in Sources */,
 				C63651F424C5183A00B1D117 /* SJKPC.xcdatamodeld in Sources */,
+				C636520624C5700700B1D117 /* WorshipViewController.swift in Sources */,
 				C63651EA24C5183A00B1D117 /* AppDelegate.swift in Sources */,
+				C636520824C5701900B1D117 /* PrayerViewController.swift in Sources */,
 				C63651EC24C5183A00B1D117 /* SceneDelegate.swift in Sources */,
+				C636520424C56FE700B1D117 /* NewsViewController.swift in Sources */,
+				C636520224C56FCC00B1D117 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
